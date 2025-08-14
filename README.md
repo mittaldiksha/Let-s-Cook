@@ -17,14 +17,6 @@ Data is fetched from the **TheMealDB API**.
 
 ---
 
-## 📸 Screenshots
-
-| Splash Screen | Home Screen | Recipe Details |
-|--------------|-------------|----------------|
-| ![Splash](assets/screenshots/splash.png) | ![Home](assets/screenshots/home.png) | ![Details](assets/screenshots/details.png) |
-
-
----
 
 ## 🛠 Tech Stack
 
