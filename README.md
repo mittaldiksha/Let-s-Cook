@@ -1,16 +1,35 @@
-# recipe_finder
+# 🍽️ Food Recipes App (Flutter)
 
-A new Flutter project.
+A modern and attractive **Food Recipes Android App** built with Flutter.  
+The app allows users to explore recipes from different categories, view detailed cooking instructions, and search for their favorite dishes.  
+Data is fetched from the **TheMealDB API**.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## ✨ Features
 
-A few resources to get you started if this is your first Flutter project:
+- 🏠 **Beautiful Home Screen** with category filters (Seafood, Vegetarian, Dessert, etc.)
+- 🔍 **Search Recipes** by name
+- 📜 **Recipe Details** with ingredients, instructions, and images
+- 🖼 **High-quality Images** for meals
+- 💥 **Splash Screen** 
+- 📱 Fully responsive and mobile-friendly UI
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📸 Screenshots
+
+| Splash Screen | Home Screen | Recipe Details |
+|--------------|-------------|----------------|
+| ![Splash](assets/screenshots/SplashScreen.png) | ![Home](assets/screenshots/HomeScreen.png) | ![Details](assets/screenshots/RecipeDetailScreen.png) |
+
+
+---
+
+## 🛠 Tech Stack
+
+- **Flutter** (Dart)
+- **TheMealDB API**
+- **HTTP** for API calls
+
+---
