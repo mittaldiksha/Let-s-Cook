@@ -21,7 +21,7 @@ Data is fetched from the **TheMealDB API**.
 
 | Splash Screen | Home Screen | Recipe Details |
 |--------------|-------------|----------------|
-| ![Splash](assets/screenshots/SplashScreen.png) | ![Home](assets/screenshots/HomeScreen.png) | ![Details](assets/screenshots/RecipeDetailScreen.png) |
+| ![Splash](assets/screenshots/splash.png) | ![Home](assets/screenshots/home.png) | ![Details](assets/screenshots/details.png) |
 
 
 ---
