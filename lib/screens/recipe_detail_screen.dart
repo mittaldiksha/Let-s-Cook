@@ -12,9 +12,32 @@ class RecipeDetailScreen extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.grey[100],
       appBar: AppBar(
-        title: const Text("Recipe Details"),
-        backgroundColor: Colors.deepOrange,
         elevation: 0,
+        toolbarHeight: 80,
+        backgroundColor: Colors.transparent,
+        flexibleSpace: Container(
+          decoration: BoxDecoration(
+            gradient: LinearGradient(
+              colors: [
+                Colors.deepOrange.shade400,
+                Colors.orange.shade300,
+              ],
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+            ),
+            borderRadius: const BorderRadius.vertical(
+              bottom: Radius.circular(20),
+            ),
+          ),
+        ),
+        title: const Text(
+          "Recipe Details",
+          style: TextStyle(
+            fontSize: 24,
+            fontWeight: FontWeight.bold,
+            color: Colors.white,
+          ),
+        ),
       ),
       body: FutureBuilder<MealDetail>(
         future: MealApi.fetchMealDetail(mealId),
